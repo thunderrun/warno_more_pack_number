@@ -1,5 +1,5 @@
---- Generation times (total: 115ms) --
-           Fill resource lists:    0.110 (1)
+--- Generation times (total: 114ms) --
+           Fill resource lists:    0.109 (1)
             Texture generation:    0.000 (0)
               Non-mesh atlases:    0.000 (0)
                   Mesh atlases:    0.000 (0)

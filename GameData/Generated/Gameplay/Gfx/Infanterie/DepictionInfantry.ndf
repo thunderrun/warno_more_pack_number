@@ -11716,10 +11716,10 @@ export Gfx_MP_Combat_USAF_US is TemplateInfantryDepictionSquad
   SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_UK
 )
 AllWeaponAlternatives_MP_Combat_USAF_US is [
-  TDepictionVisual( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A2 ),
-  TDepictionVisual( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_Carl_Gustav_M2 ),
-  TDepictionVisual( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_FIM92 ),
-  TDepictionVisual( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_M47_DRAGON ),
+  TDepictionVisual( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M82_Barrett ),
+  TDepictionVisual( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_FIM92 ),
+  TDepictionVisual( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M47_DRAGON ),
+  TDepictionVisual( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_AT_4 ),
   TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M60E3 ),
 ]
 AllWeaponSubDepiction_MP_Combat_USAF_US is TemplateAllSubWeaponDepiction
@@ -11728,22 +11728,22 @@ AllWeaponSubDepiction_MP_Combat_USAF_US is TemplateAllSubWeaponDepiction
   Operators = [
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = "FireEffect_FM_M16"
+      FireEffectTag = "FireEffect_SniperHvy_Barret_M82"
       WeaponShootDataPropertyName = "WeaponShootData_0_1"
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = "FireEffect_RocketInf_Carl_Gustav"
+      FireEffectTag = "FireEffect_MANPAD_FIM92"
       WeaponShootDataPropertyName = "WeaponShootData_0_2"
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = "FireEffect_MANPAD_FIM92"
+      FireEffectTag = "FireEffect_M47_DRAGON"
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = "FireEffect_M47_DRAGON"
+      FireEffectTag = "FireEffect_RocketInf_AT4_83mm"
       WeaponShootDataPropertyName = "WeaponShootData_0_4"
     ),
   ]
