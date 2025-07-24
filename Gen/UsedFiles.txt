@@ -1,0 +1,5 @@
+GameData:/Localisation/UnlimitedUnits/COMPANIES.csv
+GameData:/Localisation/UnlimitedUnits/INTERFACE_INGAME.csv
+GameData:/Localisation/UnlimitedUnits/INTERFACE_OUTGAME.csv
+GameData:/Localisation/UnlimitedUnits/PLATOONS.csv
+GameData:/Localisation/UnlimitedUnits/UNITS.csv
