@@ -23319,8 +23319,8 @@ Descriptor_Deck_Division_US_6th_Light_multi_Rule is TDeckDivisionRule
         (
             UnitDescriptor = $/GFX/Unit/Descriptor_Unit_MP_Combat_USAF_US
             AvailableWithoutTransport = False
-            AvailableTransportList = [ $/GFX/Unit/Descriptor_Unit_TRM_2000_FR, $/GFX/Unit/Descriptor_Unit_VIB_FR ]
-            MaxPackNumber = 9
+            AvailableTransportList = [ $/GFX/Unit/Descriptor_Unit_M2A2_Bradley_IFV_US ]
+            MaxPackNumber = 10
             NumberOfUnitInPack = 9
             NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
         ),
