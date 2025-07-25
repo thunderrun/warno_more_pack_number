@@ -11719,7 +11719,7 @@ AllWeaponAlternatives_MP_Combat_USAF_US is [
   TDepictionVisual( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M82_Barrett ),
   TDepictionVisual( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_FIM92 ),
   TDepictionVisual( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M47_DRAGON ),
-  TDepictionVisual( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_AT_4 ),
+  TDepictionVisual( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_Carl_Gustav_M2 ),
   TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M60E3 ),
 ]
 AllWeaponSubDepiction_MP_Combat_USAF_US is TemplateAllSubWeaponDepiction
@@ -11743,7 +11743,7 @@ AllWeaponSubDepiction_MP_Combat_USAF_US is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = "FireEffect_RocketInf_AT4_83mm"
+      FireEffectTag = "FireEffect_RocketInf_Carl_Gustav"
       WeaponShootDataPropertyName = "WeaponShootData_0_4"
     ),
   ]
