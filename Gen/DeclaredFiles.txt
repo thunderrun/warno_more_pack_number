@@ -1,2 +1,0 @@
-ZZ:/PC/Mesh/Pack/UnlimitedUnits/Mesh_All.spk
-ZZ:/PC/TextureProxy/Pack/UnlimitedUnits/Mesh_All.ndfbin
