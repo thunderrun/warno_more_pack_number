@@ -11716,7 +11716,7 @@ export Gfx_MP_Combat_USAF_US is TemplateInfantryDepictionSquad
   SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_UK
 )
 AllWeaponAlternatives_MP_Combat_USAF_US is [
-  TDepictionVisual( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M82_Barrett ),
+  TDepictionVisual( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A2 ),
   TDepictionVisual( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_FIM92 ),
   TDepictionVisual( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M47_DRAGON ),
   TDepictionVisual( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_Carl_Gustav_M2 ),
@@ -11728,7 +11728,7 @@ AllWeaponSubDepiction_MP_Combat_USAF_US is TemplateAllSubWeaponDepiction
   Operators = [
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = "FireEffect_SniperHvy_Barret_M82"
+      FireEffectTag = "FireEffect_FM_M16"
       WeaponShootDataPropertyName = "WeaponShootData_0_1"
     ),
     DepictionOperator_WeaponInstantFireInfantry
